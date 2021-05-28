@@ -5,7 +5,7 @@ function Mousemove() {
     const [y, sety] = useState(0)
 
     useEffect(() => {
-        console.log('Use effect called')
+        console.log('Use effect called now')
         window.addEventListener('mousemove',mouseposition)
     },[])
 
