@@ -7,6 +7,10 @@ function Mousemove() {
     useEffect(() => {
         console.log('Use effect called now')
         window.addEventListener('mousemove',mouseposition)
+
+        return (()=>{
+            window.removeEventListener('mousemove',mouseposition)
+        })
     },[])
 
     const mouseposition = (e)=>{

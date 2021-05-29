@@ -1,12 +1,13 @@
 import './App.css';
 
+
 //import Postform from './components/Postform'
-import Mousemove from './comps/Mousemove'
+import CounterReducer from './comps/CounterReducer'
 
 function App() {
   return (
     <div className="App">
-      <Mousemove/>
+      <CounterReducer/>
     </div>
   );
 }
